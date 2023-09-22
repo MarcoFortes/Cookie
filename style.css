@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto&family=Roboto+Mono:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;   
+}
+
+body{
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+
+section, .foods{
+    padding: 20px;
+}
+
+/********** NAV SECTION **********/
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.logo h3{
+    color: #E62978;
+}
+
+.text{
+    margin-top: 20vh;
+}
+
+.title h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    line-height: 1.3;
+    color: #661235;
+}
+
+.description{
+    margin-top: 3.5vh;
+}
+
+.description h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    line-height: 1.4;
+    color: #661235;
+}
+
+.description strong{
+    color: #E62978;
+}
+
+.button{
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.button button{
+    font-size: 1.3em;
+    background: #E62978;
+    color: #FFFF;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin: 14px;
+    cursor: pointer;
+}
+
+.button button:active{
+    background-color: #661235ef;
+}
+
+/********** FOOD SECTION **********/
+
+.foods{
+    margin-top: 20vh;
+}
+
+.subtitle h1,h2{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.subtitle h1{
+    color: #661235;
+    font-size: 3em;
+    line-height: 1.3;
+}
+
+.subtitle h2{
+    font-size: 2.5em;
+    margin-top: 1em;
+}
+
+.subtitle strong{
+    color: #661235;
+}
+
+h2 .prod-1{
+    color: #e25707;
+}
+
+h2 .prod-2{
+    color: #FF5471;
+}
+
+h2 .prod-3{
+    color: rgb(2, 247, 22);
+}
+
+h2 .prod-4{
+    color: #FF38EB;
+}
+
+h2 .prod-5{
+    color: #d4d411;
+}
+
+.icon{
+    text-align: center;
+}
+.food-name, .food-description{
+    text-align: center;
+    padding: 10px;
+}
+
+.food-description p{
+    font-size: 19px;
+    letter-spacing: 1.5px;
+    color: rgba(55, 49, 49, 0.781);
+}
+
+.prices{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2em;
+}
+
+.cookie, .cake, .cup_cake, .ice_cream, .picole{
+    margin-top: 12vh;
+    padding: 20px;
+}
+
+.food-name h3, .two h3, .three h3, .four h3, .five h3{
+    font-size: 2em;
+}
+
+.prices button, .two button, .three button, .four button, .five button{
+    padding: 10px;
+    font-size: 18px;
+    width: 20vw;
+    border: none;
+}
+
+.prices button:hover, .two button:hover, .three button:hover, .four button:hover, .five button:hover{
+    opacity: 0.8;
+}
+
+/********** COOKIE **********/
+
+.cookie{
+    border: 1px solid #e25707;
+    box-shadow: 0px 4px 10px 0px #e25707;
+}
+
+.food-name h3{
+    color: #e25707;
+}
+
+.prices button{
+    background-color: #e25707;
+    color: #FFFF;
+}
+
+
+/********** STRAWBERY CAKE **********/
+
+.cake{
+    border: 1px solid #FF5471;
+    box-shadow: 0px 4px 10px 0px #FF5471;
+}
+
+.two h3{
+    color: #FF5471;
+}
+
+.two button{
+    background-color: #FF5471;
+    color: #FFFF;
+}
+
+/********** CUP CAKE **********/
+
+.cup_cake{
+    border: 1px solid rgba(2, 247, 22, 0.829);
+    box-shadow: 0px 4px 10px 0px rgba(2, 247, 22, 0.842);
+}
+
+.three h3{
+    color: rgba(2, 247, 22, 0.829);
+}
+
+.three button{
+    background-color: rgb(2, 247, 22);
+    color: #FFFF;
+}
+
+/********** ICE CREAM **********/
+
+.ice_cream{
+    border: 1px solid #FF38EB;
+    box-shadow: 0px 4px 10px 0px #FF38EB;
+}
+
+.four h3{
+    color: #FF38EB;
+}
+
+.four button{
+    background-color: #FF38EB;
+    color: #FFFF;
+}
+
+/********** PICOLE **********/
+
+.picole{
+    border: 1px solid #C9C916;
+    box-shadow: 0px 4px 10px 0px #C9C916;
+}
+
+.five h3{
+    color: #C9C916;
+}
+
+.five button{
+    background-color: #C9C916;
+    color: #FFFF;
+}
+
+
+/********** FOOTER **********/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E62978;
+    padding: 50px;
+    width: 100%;
+    margin-top: 15vh;
+}
+.some-links h3{
+    color: #661235;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.some-links a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFF;
+    text-decoration: none;
+    padding: 5px 0px;
+} 
+.some-links a:hover{
+    text-decoration: underline;
+    color: #FFFF;
+}
+.media{
+    margin-top: 20px;
+    text-align: center;
+}
+.media img{
+   padding: 5px;
+   cursor: pointer;
+}
+
+/********** LOGIN FORM **********/
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-top: 30px;
+}
+.login-form h3{
+    color: #661235;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+input{
+    border: none;
+    outline: none;
+}
+
+input, .submit{
+    padding: 5px;
+}
+
+.submit{
+    color: #FFFF;
+    background-color: #661235d0;
+    border: none;
+}
+
+.author{
+    background-color: #661235;
+    color: #FFFF;
+    padding: 10px;
+}
+
+.author p{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
